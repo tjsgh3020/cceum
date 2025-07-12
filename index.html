@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>청춘이음</title>
+  <link href="https://fonts.googleapis.com/css2?family=SUIT&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      background: linear-gradient(135deg, #B2EBF2, #81D4FA);
+      font-family: 'SUIT', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 420px;
+      width: 100%;
+      padding: 40px 24px;
+      box-sizing: border-box;
+      text-align: center;
+      animation: fadeIn 1s ease-in;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 24px;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+      margin: 40px 20px;
+    }
+
+    .logo {
+      width: 100%;
+      max-width: 280px;
+      height: auto;
+      object-fit: contain;
+      margin: 0 auto 20px;
+      border-radius: 16px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    h1 {
+      font-size: 1.9em;
+      margin-bottom: 8px;
+      color: #222;
+    }
+
+    .subtext {
+      font-size: 0.95em;
+      color: #444;
+      margin-bottom: 32px;
+    }
+
+    .link-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 260px;
+      padding: 14px 20px;
+      margin: 14px auto;
+      font-size: 1em;
+      font-weight: 600;
+      color: #fff;
+      background: linear-gradient(135deg, #4FC3F7, #29B6F6);
+      border: none;
+      border-radius: 16px;
+      text-decoration: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+    }
+
+    .link-button i {
+      margin-right: 10px;
+    }
+
+    .link-button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 18px rgba(0, 0, 0, 0.18);
+    }
+
+    .fashion-img {
+      width: 100%;
+      max-width: 360px;
+      border-radius: 16px;
+      margin: 32px auto 0;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 0.8em;
+      color: #666;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- 로고 이미지 삽입 -->
+    <img src="logo.jpg" alt="청춘이음 로고" class="logo" />
+
+    <!-- 텍스트 -->
+    <h1>청춘이음</h1>
+    <p class="subtext">청춘을 잇는 따뜻한 연결</p>
+
+    <!-- 버튼들 -->
+    <a href="https://www.instagram.com/youth.e_um.ccoo/" class="link-button" target="_blank">
+      <i class="fab fa-instagram"></i> 인스타그램 바로가기
+    </a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUH_sxGPE3rISUd1LNrIMroDsiQlNeOqMgZTbvWWFQ5nQ0pw/viewform?usp=dialog" class="link-button" target="_blank">
+      <i class="fas fa-comment-dots"></i> 신청 폼 바로가기
+    </a>
+
+    <!-- 푸터 -->
+    <footer>
+      © 2025 청춘이음 | 함께하는 우리의 시간
+    </footer>
+  </div>
+</body>
+</html>
